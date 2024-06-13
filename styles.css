@@ -1,0 +1,82 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #faf3e0; /* Light pastel background */
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    color: #333; /* Dark color for text */
+}
+
+.container {
+    background: #ffffff; /* White background for container */
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    max-width: 600px;
+}
+
+h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #ff7e67; /* Pastel orange color for heading */
+}
+
+.stopwatch {
+    display: inline-block;
+}
+
+#display {
+    font-size: 3em;
+    margin-bottom: 20px;
+    color: #5e81ac; /* Pastel blue color for display */
+}
+
+.controls {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    justify-items: center;
+}
+
+.controls button {
+    padding: 10px 20px;
+    font-size: 1em;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: #a3be8c; /* Pastel green color for buttons */
+    color: #fff; /* White color for text on buttons */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s, transform 0.3s;
+    width: 100px;
+}
+
+.controls button:hover {
+    background-color: #88c0d0; /* Pastel teal color on hover */
+    transform: translateY(-2px); /* Slight lift on hover */
+}
+
+.laps {
+    margin-top: 20px;
+    text-align: left;
+}
+
+.laps ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.laps li {
+    background: #eceff4; /* Light pastel gray background for laps */
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    color: #333; /* Dark color for lap text */
+}
